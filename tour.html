@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hawaii</title>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <link rel="stylesheet" href="css/hamburger-menu.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tour-page.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/648276dae5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="move()" id="tour-page" class="position-relative">
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <div class="cursor"></div>
+            <div class="transition-overlay"></div>
+            <div class="z-3 px-3" id="header">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid d-block">
+                        <div class="row w-100">
+                            <div class="col text-left ">
+                                <div class="hamburger d-block d-sm-none" id="hamburger">
+                                    <div class="hamburger__line hamburger__line--01">
+                                        <div class="hamburger__line-in hamburger__line-in--01"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--02">
+                                        <div class="hamburger__line-in hamburger__line-in--02"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--03">
+                                        <div class="hamburger__line-in hamburger__line-in--03"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--cross01">
+                                        <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--cross02">
+                                        <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+                                    </div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="item"><a href="index.html">Home</a></li>
+                                    <li class="item"><a href="tour.html">Tour</a></li>
+                                    <li class="item"><a href="about.html">About</a></li>
+                                    <li class="item"><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="col text-center">
+                                <!-- Logo START -->
+                                <a class="navbar-brand me-0" href="index.html">
+                                    <img class="light-mode-item navbar-brand-item" src="img/logo.png" alt="logo">
+                                    <!--<img class="dark-mode-item navbar-brand-item" src="img/logo.png" alt="logo">-->
+                                </a>
+                            </div>
+                            <!-- Logo END -->
+                            <div class="col">
+                                <ul class="nav float-end btn-group mt-3">
+                                    <li>
+                                        <a class="btn btn-outline me-3 d-none d-lg-block fs-7" href="#"
+                                            role="button">Online
+                                            Check-in</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-outline me-3 d-none d-lg-block " href="#" role="button">En</a>
+                                    </li>
+                                    <li> <a class="btn btn-solid" href="#" role="button">Book Now</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <ul class="hamburger-navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="contact.html">Contact</a> </li>
+                </ul>
+                <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                </svg>
+            </div>
+
+            <section id="about" class="position-relative">
+                <div class="svg-group">
+                    <svg id="vector1" class="blob wow fadeInUp" data-wow-delay=".7s" width="599" height="765"
+                        viewBox="0 0 599 765" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.2033 765C5.14784 703.79 37.6903 639.844 91.2844 609.515C144.901 579.185 216.421 584.267 265.212 621.862C286.31 638.119 305.224 660.653 331.63 664.217C356.956 667.643 381.938 651.157 394.899 629.128C407.861 607.1 410.849 580.588 410.642 554.996C409.884 453.063 364.035 351.246 386.718 251.866C408.551 156.211 499.169 80.7444 597.141 76.6055C607.115 39.7921 575.446 10.7047 538.192 2.58777C500.938 -5.52912 462.627 6.93363 426.638 19.4424C364.264 41.1257 301.845 63.6139 243.816 95.1156C185.786 126.617 131.917 167.708 93.0999 221.169C46.8602 284.862 24.2689 362.697 10.5486 440.187C-7.92891 544.51 1.30985 659.573 12.1803 764.977L12.2033 765Z"
+                            fill="url(#paint0_linear_946_434)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_434" x1="412.734" y1="101.759" x2="104.5" y2="793"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" />
+                                <stop offset="1" stop-color="#135F69" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg id="vector2" class="blob wow fadeInUp" data-wow-delay=".7s" width="1598" height="1777"
+                        viewBox="0 0 1598 1777" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1134.72 1769.48C1178.27 1754.57 1212.24 1716.18 1224.11 1671.98C1230.62 1647.71 1229.2 1621.61 1231.55 1596.73C1234.09 1570.02 1238.33 1543.29 1246.76 1517.72C1264.27 1464.67 1299.19 1425.84 1351.69 1406.6C1410.87 1384.91 1475.23 1382.94 1538.28 1382.55C1601.29 1382.12 1665.31 1382.82 1726.05 1365.9C1835.94 1335.31 1926.27 1245.21 1961.31 1136.66C1996.35 1028.11 1976.68 904.291 1913.33 809.416C1849.99 714.542 1745.19 649.529 1632.72 630.455C1587.09 622.706 1539.99 622.071 1495.93 607.892C1437.28 589.066 1397.15 544.69 1395.95 482.097C1395.34 449.941 1408.98 419.392 1422.31 390.144C1460.76 305.852 1499.21 221.559 1537.63 137.291C1550.52 109.037 1563.57 80.1568 1566.82 49.2785C1574.55 -24.0949 1513.36 -83.2746 1442.68 -89.4142C1375.27 -95.2326 1314.87 -41.5271 1287.52 20.3768C1260.16 82.2808 1257.45 151.672 1248.81 218.778C1240.17 285.884 1223.06 356.188 1174.9 403.677C1123.08 454.768 1043.44 469.378 971.652 457.544C899.868 445.709 834.127 410.823 771.441 373.827C708.756 336.831 647.038 296.841 578.264 273.101C476.062 237.818 361.014 241.165 261.014 282.343C161.014 323.522 77.0091 402.188 29.2861 499.242C4.85002 548.985 -10.216 607.551 8.60007 659.706C27.3918 711.835 90.3169 749.875 140.406 726.159C206.292 694.968 275.751 659.969 348.072 650.897C420.394 641.825 497.319 653.216 557.454 694.385C617.589 735.554 657.494 809.455 646.854 881.587C637.517 945.007 593.319 996.754 552.709 1046.34C512.099 1095.92 471.445 1152.21 471.65 1216.31C471.816 1280.1 514.002 1337.9 566.837 1373.68C682.14 1451.72 853.349 1438.79 919.479 1580.36C941.531 1627.56 948.075 1682.6 980.196 1723.66C1015.5 1768.77 1080.45 1788.03 1134.64 1769.46L1134.72 1769.48Z"
+                            fill="url(#paint0_linear_946_433)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_433" x1="1104" y1="55.5" x2="212.697" y2="1625.33"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" stop-opacity="0" />
+                                <stop offset="1" stop-color="#135F69" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg id="vector3" class="blob wow fadeInUp" data-wow-delay=".7s" width="1473" height="1596"
+                        viewBox="0 0 1473 1596" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1055.67 283.318C1006.43 281.797 960.227 259.349 918.517 233.117C850.592 190.376 790.362 136.605 724.447 90.8519C658.532 45.0986 584.383 6.64548 504.359 0.89078C424.334 -4.86392 337.787 28.0601 297.321 97.3957C246.384 184.727 281.62 297.724 337.001 382.269C392.383 466.814 467.279 540.2 503.406 634.573C558.383 778.076 503.593 955.754 377.329 1043.32C272.223 1116.25 126.471 1132.04 47.7481 1232.9C1.03868 1292.7 -12.1881 1377.04 13.9061 1448.3C40.0428 1519.57 104.617 1575.33 178.922 1590.75C301.801 1616.26 419.967 1537.7 519.644 1461.37C619.307 1385.08 732.641 1302.48 857.086 1318.73C939.345 1329.49 1012.05 1383.03 1094.79 1389.27C1176.71 1395.43 1256.71 1352.77 1312.39 1292.31C1368.07 1231.84 1402.69 1155.19 1431.29 1078.11C1470.55 972.268 1497.99 846.493 1435.9 752.255C1393.15 687.446 1313.16 647.399 1290.32 573.218C1276.08 526.967 1287.6 477.248 1298.1 430.021C1308.59 382.794 1317.82 332.018 1299.54 287.241C1244.7 152.726 1137.64 285.848 1055.65 283.261L1055.67 283.318Z"
+                            fill="url(#paint0_linear_946_435)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_435" x1="1588.96" y1="499.21" x2="-317.143"
+                                y2="1166.4" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" />
+                                <stop offset="1" stop-color="#135F69" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg id="vector4" class="blob wow fadeInUp" data-wow-delay=".7s" width="1514" height="1862"
+                        viewBox="0 0 1514 1862" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1319.14 1499.4C1302.15 1547.46 1283.66 1597.02 1281.88 1648.54C1280.32 1692.75 1293.88 1722.23 1270.66 1762.67C1226.13 1840.23 1127.61 1873.05 1042.05 1858.73C942.549 1842.08 858.549 1777.86 779.059 1715.73C678.263 1636.93 577.467 1558.13 476.689 1479.31C332.939 1366.92 185.595 1250.47 94.7177 1092.29C22.2997 966.225 -10.0237 817.567 3.53893 672.865C22.0221 476.171 122.004 295.486 244.512 140.586C287.037 86.8359 335.404 33.3445 399.931 10.2541C517.343 -31.7589 573.776 77.1615 672.977 110.72C783.69 148.181 903.828 139.355 1020.61 134.804C1137.39 130.254 1259.85 131.722 1363.1 186.521C1466.35 241.32 1541.76 365.885 1503.21 476.163C1476.03 553.863 1401.51 604.95 1326.09 637.884C1250.66 670.817 1169.18 691.61 1100.07 736.341C1030.97 781.071 974.448 859.134 986.917 940.501C1000.07 1026.35 1081.42 1082.74 1156.99 1125.6C1232.57 1168.46 1316.52 1216.24 1342.7 1299.03C1363.34 1364.36 1341.95 1434.8 1319.15 1499.37L1319.14 1499.4Z"
+                            fill="url(#paint0_linear_946_432)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_432" x1="632.5" y1="-224" x2="872" y2="1327"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" />
+                                <stop offset="1" stop-color="#135F69" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                </div>
+                <div class="container position-relative overflow-hidden z-2">
+
+                    <div class="row">
+                        <div class="divider-2"></div>
+                        <h3 class="text-center mw-700 m-auto"><span class="text-light wow fadeInUp"
+                                data-wow-delay=".7s">Join us on a circle island adventure led by some of Hawaii’s
+                            </span><span class="text-color-secondary wow fadeInUp" data-wow-delay=".7s">most
+                                knowledgeable local guides and experience breathtaking lookouts.</span></h3>
+                        <div class="w-100 my-80 position-relative p-0">
+                            <div class="thumbnail wow fadeInUp" data-wow-delay=".6s">
+                                <img src="img/assets/tour/image1.jpg" alt="">
+                            </div>
+                            <div class="divider"></div>
+                            <form action="" id="form" class="position-relative wow fadeInUp" data-wow-delay=".6s">
+
+                                <div class="input-group">
+                                    <span class="input-group-text" id="inputGroupPrepend">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path
+                                                    d="M26.6663 28V25.3333C26.6663 23.9188 26.1044 22.5623 25.1042 21.5621C24.104 20.5619 22.7475 20 21.333 20H10.6663C9.25185 20 7.8953 20.5619 6.8951 21.5621C5.89491 22.5623 5.33301 23.9188 5.33301 25.3333V28"
+                                                    stroke="white" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M16.0003 14.6667C18.9458 14.6667 21.3337 12.2789 21.3337 9.33333C21.3337 6.38781 18.9458 4 16.0003 4C13.0548 4 10.667 6.38781 10.667 9.33333C10.667 12.2789 13.0548 14.6667 16.0003 14.6667Z"
+                                                    stroke="white" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <div class="occupancy-select">
+                                            <span class="description" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Maximum 4 adults per room
+                                            Maximum 3 children per room">Maximum 4 persons per room <i class="fa-solid fa-circle-info" ></i></span>
+                                            <ul id="list-room">
+                                                <li class="room">
+                                                    <span class="name">Room 1</span>
+                                                    <div class="age-selector"><span class="title">Adult </span>
+                                                        <select name="" class="selector" id="adult-room-1">
+                                                            <option selected value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="age-selector"><span class="title">Children <br><span class="subtitle">≤ 18 years old</span></span>
+
+                                                        <select class="selector" name="" id="children-room-1">
+                                                            <option selected value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                        </select>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <a href="" id="addroom"><i class="fa-solid fa-plus"></i> Add a room</a>
+                                            <div class="selector-footer">
+                                                <a href="#" id="cancel-button">Cancel</a>
+                                                <a href="" id="apply-room">Apply</a>
+                                            </div>
+                                        </div>
+                                    </span>
+                                    <input class="form-control" type="text" placeholder="Guest" name=""
+                                        id="inputGuest">
+
+                                    <span class="input-group-text" id="inputGroupPrepend">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path
+                                                    d="M25.3333 5.33594H6.66667C5.19391 5.33594 4 6.52984 4 8.0026V26.6693C4 28.142 5.19391 29.3359 6.66667 29.3359H25.3333C26.8061 29.3359 28 28.142 28 26.6693V8.0026C28 6.52984 26.8061 5.33594 25.3333 5.33594Z"
+                                                    stroke="white" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M4 13.3359H28" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M21.3335 2.66406V7.9974" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M10.6665 2.66406V7.9974" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+
+                                    </span>
+                                    <input class="form-control" type="datetime" placeholder="Date" name="dates" >
+                                    <a href="#" class="btn-secondary position-absolute end-0">Book Your Travel<i
+                                            class="button-icon">
+                                            <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 9L16 9" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </i></a>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-md-5 position-relative">
+                                <div class="line d-none d-md-block"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <span class="text-light wow fadeInUp" data-wow-delay=".7s">Come join us on a circle
+                                    island adventure led by some of Hawaii’s most knowledgeable local guides and
+                                    experience breathtaking lookouts to capture mind-blowing shots that will last a
+                                    lifetime.</span>
+                                <div class="divider-text"></div>
+                                <span class="fs-6 mt-4 text-light mw-500 d-block wow fadeInUp" data-wow-delay=".8s">Go
+                                    sightseeing around the majestic countrysides of the island, indulge in the local
+                                    cuisines at the world famous shrimp trucks.</span>
+                                <span class="fs-6 mt-4 text-light mw-500 d-block wow fadeInUp" data-wow-delay=".8s">Stop
+                                    at various legendary surf breaks see wave heights of up to 60 feet! at Pipeline and
+                                    Waimea Bay. Snorkel with turtles, spinner dolphins, and a wide variety of exotic
+                                    marine life at a sacred nature reserve on the North Shore.</span>
+                                <span class="fs-6 mt-4 text-light mw-500 d-block wow fadeInUp"
+                                    data-wow-delay=".8s">Finally to sweeten things up we stop at the dole plantation to
+                                    enjoy the delightful pineapple ice cream.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid position-relative">
+                <div class="row">
+                    <div class="separator">
+                        <svg class="separator-child separator-child-secondary" style="fill: #D1E2E4"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-196.61 0V21.1232C-196.61 90.5281 -148.913 67.6768 -101.5 115.09C-14.9999 201.59 116.787 115.09 227.697 115.09C338.606 115.09 400.788 152.442 511.698 152.442C622.607 152.442 676.557 122.132 795.699 115.09C908.436 108.426 966.566 155.325 1079.7 155.325C1192.83 155.325 1252.79 115.09 1363.7 115.09C1474.61 115.09 1534.57 155.325 1647.7 155.325C1760.84 155.325 1820.79 115.09 1931.7 115.09C2042.61 115.09 2102.57 155.325 2215.7 155.325C2328.84 155.325 2386.57 115.09 2499.7 115.09C2612.84 115.09 2672.8 155.325 2783.71 155.325C2894.61 155.325 2954.57 115.09 3067.71 115.09C3180.84 115.09 3238.57 155.325 3351.71 155.325C3464.84 155.325 3524.8 115.09 3635.71 115.09C3746.62 115.09 3845.02 185.125 3919.71 125.325C3976.61 79.7659 3919.71 0 3919.71 0H-196.61Z">
+                            </path>
+                        </svg>
+                        <svg class="separator-child separator-child-primary" style="fill:#1F7580" viewBox="0 0 3876 160"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-174.61 -157V-116.765C-174.61 15.4344 -112.186 139 -3.49988 139C111 139 138.787 62.2189 249.697 62.2189C360.606 62.2189 356 156.175 533.698 156.175C683 156.175 698.557 75.6322 817.699 62.2189C930.436 49.5265 988.565 138.856 1101.7 138.856C1214.83 138.856 1274.79 62.2189 1385.7 62.2189C1496.61 62.2189 1556.57 138.856 1669.7 138.856C1782.84 138.856 1842.79 62.2189 1953.7 62.2189C2064.61 62.2189 2124.57 138.856 2237.7 138.856C2350.84 138.856 2408.57 62.2188 2521.7 62.2189C2634.84 62.2189 2694.8 138.856 2805.71 138.856C2916.61 138.856 2976.57 62.2189 3089.71 62.2189C3202.84 62.2188 3260.57 138.856 3373.71 138.856C3486.84 138.856 3546.8 62.2189 3657.71 62.2189C3768.62 62.2189 3867.02 222.761 3941.71 108.856C3998.61 22.0779 3941.71 -157 3941.71 -157H-174.61Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <section id="feature" class="position-relative">
+                <div id="blob-3" class="position-absolute top-20 z-n1 wow fadeInUp" data-wow-delay=".8s">
+                    <svg width="1568" height="1731" viewBox="0 0 1568 1731" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1426.35 136.403C1387.22 118.862 1339.68 123.397 1303.51 145.938C1283.64 158.318 1268 176.988 1250.59 192.43C1231.87 208.999 1211.99 224.502 1190 236.544C1144.34 261.521 1095.88 265.755 1047.91 245.467C993.828 222.606 948.763 183.018 905.592 143.203C862.421 103.421 819.287 62.2427 767.18 35.1325C672.921 -13.913 554.14 -10.017 461.263 41.5941C368.386 93.2053 303.048 190.01 285.843 294.874C268.637 399.739 298.64 510.634 363.069 595.129C389.206 629.42 420.868 659.803 441.844 697.471C469.803 747.584 468.902 803.308 429.914 846.677C409.887 868.958 381.178 881.083 353.501 892.513C273.73 925.448 193.959 958.383 114.222 991.318C87.476 1002.35 60.2312 1013.72 38.3846 1032.67C-13.5344 1077.7 -9.50788 1156.9 34.7033 1206.02C76.893 1252.84 152.159 1254.69 210.143 1229.94C268.127 1205.2 314.099 1159.68 362.649 1119.5C411.2 1079.31 467.552 1042.33 530.531 1040.62C598.295 1038.79 661.802 1079.49 703.144 1133.19C744.486 1186.89 767.056 1252.44 786.205 1317.49C805.353 1382.53 821.939 1449 853.662 1508.89C900.8 1597.89 981.247 1668.77 1075.51 1704.33C1169.76 1739.88 1276.97 1739.74 1371.17 1704.02C1419.44 1685.7 1466.93 1655.41 1487.29 1607.94C1507.64 1560.5 1488.99 1494.59 1439.82 1478.89C1375.13 1458.23 1305.59 1437.89 1250.59 1398.08C1195.59 1358.27 1150.47 1301.6 1135.71 1235.33C1120.95 1169.07 1140.77 1093.39 1193.88 1051.05C1240.57 1013.81 1303.56 1006.69 1362.73 998.762C1421.9 990.832 1485.37 978.36 1525.99 934.596C1566.44 891.064 1574.48 824.89 1561.26 766.938C1532.39 640.494 1407.62 540.433 1452.62 402.007C1467.62 355.855 1498.17 314.226 1502.4 265.854C1507.05 212.697 1475.09 158.288 1426.39 136.47L1426.35 136.403Z"
+                            fill="url(#paint0_linear_946_424)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_424" x1="-264.5" y1="-230.998" x2="944.745"
+                                y2="1092.73" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#D1E2E4" />
+                                <stop offset="1" stop-color="#D1E2E4" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="divider"></div>
+                <div class="container position-relative">
+                    <h2 class="gradient-text mw-700 text-center m-auto wow fadeInUp" data-wow-delay=".7s">Grand Tours
+                        Around Island Visit 16 Location in One Day</h2>
+                    <div class="divider"></div>
+                    <div class="row mb-5">
+                        <div class="col-lg-6">
+                            <div class="col-lg-9">
+                                <span class="mb-4 d-block wow fadeInUp" data-wow-delay=".7s">This itinerary allows you to experience the luxury and natural beauty of Hawaii, 
+                                from its pristine beaches to its rugged landscapes and cultural sites. </span>
+                                <a href="#" class="btn-primary">Explore Locations<i class="button-icon">
+                                        <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </i></a>
+                            </div>
+                            <div class="divider"></div>
+                            <a href="#" class="thumbnail wow fadeInUp" data-wow-delay=".7s">
+                                <img src="img/assets/1.jpg" alt="images" class="img-fluid mb-4">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".8s">
+                    <a href="#" class=" thumbnail mb-4"><img class="img-fluid" src="img/assets/2.jpg" alt="images">
+                        </a>
+                        <div class="col-lg-6">
+                            <a href="#" class="thumbnail wow fadeInUp" data-wow-delay=".9s">
+                                <img class="img-fluid" src="img/assets/3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="product-listing">
+                <div class="container">
+                    <div class="row">
+                        <div class="product-list wow fadeInUp" data-wow-delay=".7s">
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Oahu Island: The Blue Pearl of Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Explore the historical significance of Pearl Harbor with visits to the USS Arizona Memorial and Battleship Missouri. Enjoy the vibrant beaches and nightlife of Waikiki.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Conquering Diamond Head: The Sleeping Volcano Peak In Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Diamond Head, one of Hawaii’s most iconic landmarks, is a must-see destination for nature lovers and those looking to challenge themselves. Located in the heart of downtown Honolulu, Diamond Head is the rim of an extinct volcano, offering breathtaking views of the city and the ocean.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Hālona Blowhole: A Natural Wonder of O‘ahu</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">The Hālona Blowhole is one of Hawai‘i’s natural wonders, created thousands of years ago when molten lava tubes were formed from volcanic eruptions. There aren’t any active volcanoes on O‘ahu anymore, but the blowhole remains a must-see scenic stop.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Sandy Beach Hawaii: Paradise For Ocean Lovers</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Sandy Beach, located on the southeast coast of O‘ahu, Hawaii, is one of the most popular beaches on the islands. Known for its powerful waves and long stretches of golden sand, Sandy Beach is a great destination for water sports enthusiasts and those who want to experience the majesty of Hawaii’s ocean.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Makapu‘u Beach: A Hidden Gem on the Island of O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Makapu‘u Beach, located on the eastern tip of the island of O‘ahu, Hawaii, is a great destination for those who want to explore the wild and majestic beauty of nature. Surrounded by towering black cliffs and clear blue water, Makapu‘u Beach offers a peaceful yet attractive space for visitors.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Waimānalo, O‘ahu, Hawaii: The Peaceful Beauty of a Coastal Fishing Village</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Waimānalo, located on the east coast of O‘ahu, Hawaii, is one of the most beautiful and peaceful areas of the archipelago. With its long, wide beaches, soft white sand, clear blue water, and local atmosphere, Waimānalo is an ideal destination for those who want to explore natural beauty and experience traditional Hawaiian culture.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">MacNut Farm: Explore the Unique Macadamia Nut Farm in O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Located on the island of O‘ahu, Hawaii, MacNut Farm is an attractive destination for those who love nature and want to learn about local agriculture. Famous for its macadamia nut farms - one of the most precious nuts in the world, MacNut Farm offers visitors an interesting and rewarding experience amidst the green and peaceful space of Hawaiian nature.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Chinaman's Hat (Mokoli‘i): The Unique Gem of O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Chinaman's Hat, also known as Mokoli‘i in Hawaiian, is a small cone-shaped island located off the east coast of the island of O‘ahu, Hawaii. With its unique shape and picturesque location, Chinaman's Hat is one of the most prominent symbols of the Hawaiian Islands, attracting visitors with its natural beauty and exciting outdoor activities.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Shrimp Trucks: A Unique Street Food Experience on the Island of O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Shrimp Trucks in O‘ahu, Hawaii, is a street food experience not to be missed when you come to this archipelago. With small trucks selling shrimp, this dish has become an indispensable part of Hawaiian culinary culture, attracting visitors with its rich, fresh flavors and simple but attractive service style.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Fruit Stands: Discover Delicious Fresh Fruit Stands on O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Fresh, sweet, and colorful fruit is an integral part of Hawaiian cuisine, and the Fruit Stands on O‘ahu are the perfect place to experience it. These fruit stands not only give visitors the chance to enjoy fresh fruit, but also help them learn about local agriculture and the culture of this beautiful archipelago.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Sunset Beach: A Beautiful Sunset Destination on O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Sunset Beach, located on the north shore of O‘ahu, Hawaii, is one of the most popular beaches on the islands. With its stunning views and relaxing atmosphere, Sunset Beach is not only a great destination for beach lovers but also a great place to enjoy spectacular sunsets.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Banzai Pipeline: A Legendary Surfing Paradise on the Island of O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Banzai Pipeline, or simply “Pipeline,” is one of the most famous and admired surfing destinations on the island of O‘ahu, Hawaii. Located on the island’s North Shore, Banzai Pipeline has become an icon of surfing, attracting surfers from all over the world to test its powerful and challenging waves.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Waimea Bay: A Natural Gem on the Island of O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Waimea Bay, located on the North Shore of the island of O‘ahu, Hawaii, is one of the most popular beaches and attracts a large number of tourists and locals. Known for its stunning scenery, powerful waves, and abundant outdoor activities, Waimea Bay is a must-visit destination for those who love the ocean and natural experiences.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Laniakea: A Peaceful Gem on the Island of O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Laniakea, located on the North Shore of O‘ahu, Hawaii, is one of the interesting and unique destinations that you should not miss when exploring this island. Known for its beautiful beaches, peaceful atmosphere and closeness to nature, Laniakea is not only an ideal place to relax but also a great stop for those who love marine animals, especially green turtles.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Haleiwa Town: History, Culture, and Unique Landscapes of O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Haleiwa Town, located on the North Shore of the island of O‘ahu, Hawaii, is a charming and vibrant town known for its natural beauty, rich cultural heritage, and friendly atmosphere. As the hub of the North Shore, Haleiwa is not only a great destination for those who love the ocean and outdoor sports, but also a place to experience local life and enjoy delicious specialties.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="thumbnail-product"><img src="img/assets/product.jpg" alt=""></a>
+                                <div class="overlay z-n1"></div>
+                                <h4 class="z-3">Dole Plantation: Discover the Pineapple Kingdom in O‘ahu, Hawaii</h4>
+                                <div class="info z-1">
+                                    <span class="description fs-6">Located on the island of O‘ahu, Hawaii, Dole Plantation is an ideal destination for those who love to explore tropical agriculture and learn about the history of the pineapple – a typical symbol of Hawaii. Established in 1950, Dole Plantation is not only famous for its sightseeing and entertainment activities but also for its interesting educational experiences about tropical crops and products.</span>
+                                </div>
+                                <div class="number position-absolute">01</div>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div id="slider" class="col-lg-10 wow fadeInUp" data-wow-delay=".6s">
+                            <div id="thumbnail" style=""></div>
+                            <div id="pagination" class="d-flex text-center align-items-center">
+                                <a href="" class="previous" id="previous-slide"></a>
+                                <span class="paging-text mx-3 d-flex"><i class="current">1</i> / <i
+                                        class="total">3</i></span>
+                                <a href="" class="next" id="next-slide"></a>
+                            </div>
+                            <div class="list-items">
+                                <a href="" class="slide-item" style="" data-slide="1"><img src="img/image1.jpg"
+                                        alt="slide"></a>
+                                <a href="" class="slide-item" data-slide="2"><img src="img/image2.jpg" alt="slide"></a>
+                                <a href="" class="slide-item" style="" data-slide="3"><img src="img/image3.jpg"
+                                        alt="slide"></a>
+                                <a href="" class="slide-item" data-slide="4"><img src="img/image4.jpg" alt="slide"></a>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+
+            </section>
+            <div class="container-fluid position-relative">
+                <div class="row">
+                    <div class="separator reverse">
+                        <svg class="separator-child separator-child-secondary" style="fill: #e3e3c49c; rotate: 180deg;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-196.61 0V21.1232C-196.61 90.5281 -148.913 67.6768 -101.5 115.09C-14.9999 201.59 116.787 115.09 227.697 115.09C338.606 115.09 400.788 152.442 511.698 152.442C622.607 152.442 676.557 122.132 795.699 115.09C908.436 108.426 966.566 155.325 1079.7 155.325C1192.83 155.325 1252.79 115.09 1363.7 115.09C1474.61 115.09 1534.57 155.325 1647.7 155.325C1760.84 155.325 1820.79 115.09 1931.7 115.09C2042.61 115.09 2102.57 155.325 2215.7 155.325C2328.84 155.325 2386.57 115.09 2499.7 115.09C2612.84 115.09 2672.8 155.325 2783.71 155.325C2894.61 155.325 2954.57 115.09 3067.71 115.09C3180.84 115.09 3238.57 155.325 3351.71 155.325C3464.84 155.325 3524.8 115.09 3635.71 115.09C3746.62 115.09 3845.02 185.125 3919.71 125.325C3976.61 79.7659 3919.71 0 3919.71 0H-196.61Z">
+                            </path>
+                        </svg>
+                        <svg class="separator-child separator-child-primary" style="fill:#708551; rotate: 180deg;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-174.61 -157V-116.765C-174.61 15.4344 -112.186 139 -3.49988 139C111 139 138.787 62.2189 249.697 62.2189C360.606 62.2189 356 156.175 533.698 156.175C683 156.175 698.557 75.6322 817.699 62.2189C930.436 49.5265 988.565 138.856 1101.7 138.856C1214.83 138.856 1274.79 62.2189 1385.7 62.2189C1496.61 62.2189 1556.57 138.856 1669.7 138.856C1782.84 138.856 1842.79 62.2189 1953.7 62.2189C2064.61 62.2189 2124.57 138.856 2237.7 138.856C2350.84 138.856 2408.57 62.2188 2521.7 62.2189C2634.84 62.2189 2694.8 138.856 2805.71 138.856C2916.61 138.856 2976.57 62.2189 3089.71 62.2189C3202.84 62.2188 3260.57 138.856 3373.71 138.856C3486.84 138.856 3546.8 62.2189 3657.71 62.2189C3768.62 62.2189 3867.02 222.761 3941.71 108.856C3998.61 22.0779 3941.71 -157 3941.71 -157H-174.61Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <section class="position-relative overflow-hidden py-100 bg-green">
+                <div class="container">
+                    <h3 class="mw-700 text-center m-auto"><span class="text-light wow fadeInUp"
+                            data-wow-delay=".7s">Enjoy the trip with us</span><br><span
+                            class="text-color-secondary wow fadeInUp" data-wow-delay=".8s">What is included?</span></h3>
+                    <div class="divider-text">
+                    </div>
+                    <span class="description mw-500 d-block m-auto fs-6 text-light text-center wow fadeInUp"
+                        data-wow-delay=".8s">Explore Hawaii's journey will take you through stunning natural landscapes, from famous volcanoes to beautiful beaches and diverse island cultures.</span>
+                    <div class="divider"></div>
+                    <div class="blog">
+                        <div class="row position-relative">
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
+                                <a class="post">
+                                    <a href="#" class="col-md-9 thumbnail"><img src="img/assets/tour/image2.jpg" alt=""></a>
+                                    <div class="divider-text"></div>
+                                    <h4 class="text-color-secondary">Waikiki Beach
+                                    </h4>
+                                    <span class="desciprtion fs-6 text-light">Waikiki is the most famous beach in Hawaii, located right in the heart of Honolulu.</span>
+                                </a>
+
+                            </div>
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="divider"></div>
+                                <div class="post">
+                                    <a href="#" class="col-md-9 thumbnail"><img src="img/assets/tour/image3.jpg" alt=""></a>
+                                    <div class="divider-text"></div>
+                                    <h4 class="text-color-secondary">Diamond Head Crater
+                                    </h4>
+                                    <span class="desciprtion fs-6 text-light">Diamond Head is an extinct volcano located near Waikiki Beach.</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="post">
+                                    <a href="#" class="col-md-9 thumbnail"><img src="img/assets/tour/image4.jpg" alt=""></a>
+                                    <div class="divider-text"></div>
+                                    <h4 class="text-color-secondary">Pearl Harbor</h4>
+                                    <span class="desciprtion fs-6 text-light">Pearl Harbor is one of America's most famous historical destinations, marking the surprise attack in 1941.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row position-relative">
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="post">
+                                    <a href="#" class="col-md-9 thumbnail"><img src="img/assets/tour/image5.jpg" alt=""></a>
+                                    <div class="divider-text"></div>
+                                    <h4 class="text-color-secondary">North Shore</h4>
+                                    <span class="desciprtion fs-6 text-light">O‘ahu's North Shore is a surfer's paradise. This place is famous for its giant waves in winter, attracting many of the world's top surfers.</span>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="divider"></div>
+                                <div class="post">
+                                    <a href="#" class="col-md-9 thumbnail"><img src="img/assets/tour/image6.jpg" alt=""></a>
+                                    <div class="divider-text"></div>
+                                    <h4 class="text-color-secondary">Hanauma Bay</h4>
+                                    <span class="desciprtion fs-6 text-light">Hanauma Bay is a marine reserve, known for its diverse underwater ecosystem.</span>
+                                    </div>
+                            </div>
+                            <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="post">
+                                    <a href="#" class="col-md-9 thumbnail"><img src="img/assets/tour/image7.jpg" alt=""></a>
+                                    <div class="divider-text"></div>
+                                    <h4 class="text-color-secondary">Makapu‘u Lighthouse Trail</h4>
+                                    <span class="desciprtion fs-6 text-light">Makapu‘u Point is one of the most scenic viewpoints on the island of O‘ahu, famous for the Makapu‘u Lighthouse.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <div class="container-fluid position-relative z-2">
+                <div class="row">
+                    <div class="separator">
+                        <svg class="separator-child separator-child-secondary" style="fill: #e3e3c49c;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-196.61 0V21.1232C-196.61 90.5281 -148.913 67.6768 -101.5 115.09C-14.9999 201.59 116.787 115.09 227.697 115.09C338.606 115.09 400.788 152.442 511.698 152.442C622.607 152.442 676.557 122.132 795.699 115.09C908.436 108.426 966.566 155.325 1079.7 155.325C1192.83 155.325 1252.79 115.09 1363.7 115.09C1474.61 115.09 1534.57 155.325 1647.7 155.325C1760.84 155.325 1820.79 115.09 1931.7 115.09C2042.61 115.09 2102.57 155.325 2215.7 155.325C2328.84 155.325 2386.57 115.09 2499.7 115.09C2612.84 115.09 2672.8 155.325 2783.71 155.325C2894.61 155.325 2954.57 115.09 3067.71 115.09C3180.84 115.09 3238.57 155.325 3351.71 155.325C3464.84 155.325 3524.8 115.09 3635.71 115.09C3746.62 115.09 3845.02 185.125 3919.71 125.325C3976.61 79.7659 3919.71 0 3919.71 0H-196.61Z">
+                            </path>
+                        </svg>
+                        <svg class="separator-child separator-child-primary" style="fill:#708551;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-174.61 -157V-116.765C-174.61 15.4344 -112.186 139 -3.49988 139C111 139 138.787 62.2189 249.697 62.2189C360.606 62.2189 356 156.175 533.698 156.175C683 156.175 698.557 75.6322 817.699 62.2189C930.436 49.5265 988.565 138.856 1101.7 138.856C1214.83 138.856 1274.79 62.2189 1385.7 62.2189C1496.61 62.2189 1556.57 138.856 1669.7 138.856C1782.84 138.856 1842.79 62.2189 1953.7 62.2189C2064.61 62.2189 2124.57 138.856 2237.7 138.856C2350.84 138.856 2408.57 62.2188 2521.7 62.2189C2634.84 62.2189 2694.8 138.856 2805.71 138.856C2916.61 138.856 2976.57 62.2189 3089.71 62.2189C3202.84 62.2188 3260.57 138.856 3373.71 138.856C3486.84 138.856 3546.8 62.2189 3657.71 62.2189C3768.62 62.2189 3867.02 222.761 3941.71 108.856C3998.61 22.0779 3941.71 -157 3941.71 -157H-174.61Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <section id="icon">
+                <div class="container wow fadeInUp" data-wow-delay=".7s">
+
+                    <h3 class="mw-500 text-center m-auto gradient-text-2">Explore Hawaii's journey invites you to discover breathtaking natural landscapes, renowned volcanoes, pristine beaches, and diverse island cultures.</h3>
+                    <div class="divider"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="card-icon">
+                                <div class="icon"><img src="img/assets/tour/icon1.png" alt=""></div>
+                                <h4>Island Sightseeing</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="card-icon">
+                                <div class="icon"><img src="img/assets/tour/icon2.png" alt=""></div>
+                                <h4>Audio Guide</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="card-icon">
+                                <div class="icon"><img src="img/assets/tour/icon3.png" alt=""></div>
+                                <h4>Duration 8h</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="card-icon">
+                                <div class="icon"><img src="img/assets/tour/icon4.png" alt=""></div>
+                                <h4>Groups Allowed</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="card-icon">
+                                <div class="icon"><img src="img/assets/tour/icon5.png" alt=""></div>
+                                <h4 class="">Photo</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="card-icon">
+                                <div class="icon"><img src="img/assets/tour/icon6.png" alt=""></div>
+                                <h4>Tour Guides</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="card-icon">
+                                <div class="icon"><img src="img/assets/tour/icon7.png" alt=""></div>
+                                <h4>Transport Included</h4>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <div class="divider"></div>
+            <div class="container-fluid position-relative">
+                <div class="row">
+                    <div class="separator reverse">
+                        <svg class="separator-child separator-child-secondary" style="fill: #D1E2E4; rotate: 180deg"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-196.61 0V21.1232C-196.61 90.5281 -148.913 67.6768 -101.5 115.09C-14.9999 201.59 116.787 115.09 227.697 115.09C338.606 115.09 400.788 152.442 511.698 152.442C622.607 152.442 676.557 122.132 795.699 115.09C908.436 108.426 966.566 155.325 1079.7 155.325C1192.83 155.325 1252.79 115.09 1363.7 115.09C1474.61 115.09 1534.57 155.325 1647.7 155.325C1760.84 155.325 1820.79 115.09 1931.7 115.09C2042.61 115.09 2102.57 155.325 2215.7 155.325C2328.84 155.325 2386.57 115.09 2499.7 115.09C2612.84 115.09 2672.8 155.325 2783.71 155.325C2894.61 155.325 2954.57 115.09 3067.71 115.09C3180.84 115.09 3238.57 155.325 3351.71 155.325C3464.84 155.325 3524.8 115.09 3635.71 115.09C3746.62 115.09 3845.02 185.125 3919.71 125.325C3976.61 79.7659 3919.71 0 3919.71 0H-196.61Z">
+                            </path>
+                        </svg>
+                        <svg class="separator-child separator-child-primary" style="fill:#1F7580; rotate: 180deg"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-174.61 -157V-116.765C-174.61 15.4344 -112.186 139 -3.49988 139C111 139 138.787 62.2189 249.697 62.2189C360.606 62.2189 356 156.175 533.698 156.175C683 156.175 698.557 75.6322 817.699 62.2189C930.436 49.5265 988.565 138.856 1101.7 138.856C1214.83 138.856 1274.79 62.2189 1385.7 62.2189C1496.61 62.2189 1556.57 138.856 1669.7 138.856C1782.84 138.856 1842.79 62.2189 1953.7 62.2189C2064.61 62.2189 2124.57 138.856 2237.7 138.856C2350.84 138.856 2408.57 62.2188 2521.7 62.2189C2634.84 62.2189 2694.8 138.856 2805.71 138.856C2916.61 138.856 2976.57 62.2189 3089.71 62.2189C3202.84 62.2188 3260.57 138.856 3373.71 138.856C3486.84 138.856 3546.8 62.2189 3657.71 62.2189C3768.62 62.2189 3867.02 222.761 3941.71 108.856C3998.61 22.0779 3941.71 -157 3941.71 -157H-174.61Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <section class="py-100 bg-blue">
+                <div class="container">
+                    <h3 class="m-auto mw-700 text-center"><span class="text-light wow fadeInUp"
+                            data-wow-delay=".7s">Upscale hotel services featuring luxury, sophistication, </span><br><span
+                            class="text-color-secondary wow fadeInUp" data-wow-delay=".8s">and a wide range of amenities for guests' comfort and enjoyment.</span></h3>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-md-3 align-self-end wow fadeInUp animated" data-wow-delay=".7s"
+                            style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                            <a href="#" class="thumbnail">
+                                <img src="img/assets/img3.jpg" alt="images" class="img-fluid">
+                            </a>
+                        </div>
+
+                        <div class="col-md-5 wow fadeInUp animated" data-wow-delay=".6s"
+                            style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <a href="#" class="thumbnail"><img src="img/assets/img4.jpg" alt="images" class="img-fluid"></a>
+                        </div>
+                        <div class="col-md-4 align-self-start wow fadeInUp thumbnail animated" data-wow-delay=".5s"
+                            style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <a href="#" class="thumbnail"><img src="img/assets/img5.jpg" alt="images" class="img-fluid"></a>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="text-center"><a class="btn-secondary fw-normal wow fadeInUp" data-wow-delay=".7s" href="#">Discover Tour<i
+                                    class="button-icon">
+                                    <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </i></a></div>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-4" class="position-relative ">
+
+
+                <div class="container">
+
+
+                    <div class="row justify-content-between z-2 position-relative">
+                        <div class="col-lg-5 col-md-4 wow fadeInUp mb-4" data-wow-delay=".6s">
+                            <div class="tag">Balcony</div>
+                            <div class="tag">Park View</div>
+                            <div class="tag">Sea View</div>
+                            <h3 class="mt-4">Classic Room</h3>
+                            <span class="description">A Classic Room offers a comfortable and stylish accommodation with essential amenities, ideal for a relaxing stay.</span>
+                        </div>
+                        <div class="col-lg-7 col-md-8 wow fadeInUp" data-wow-delay=".7s">
+                            <div class="row">
+                                <div class="tcol text-right">
+                                    <a href="#" class="thumbnail"><img class="float-end" src="img/assets/image1.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="thumbnail col-md-8">
+                                    <a href="#" class="thumbnail"><img class="img-fluid" src="img/assets/img1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="thumbnail col-md-4">
+                                    <a href="#" class="thumbnail"><img class="img-fluid" src="img/assets/image3.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-2"></div>
+                <div class="divider-2"></div>
+                <div class="container">
+                    <div class="row justify-content-between z-2 position-relative">
+                        <div class="col-lg-7 col-md-8 wow fadeInUp" data-wow-delay=".7s">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <a href="#" class="thumbnail"><img class="float-center" src="img/assets/image4.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-md-4">
+                                    <a href="#" class="thumbnail"><img class="img-fluid" src="img/assets/image5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="#" class="thumbnail"><img class="img-fluid" src="img/assets/image6.jpg" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="tag">Balcony</div>
+                            <div class="tag">Sea View</div>
+                            <h3 class="mt-4">Superior Room</h3>
+                            <span class="description">A Superior Room provides enhanced comfort and amenities, designed for a more enjoyable and luxurious hotel experience.</span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="section-5">
+                <div class="container wow fadeInUp" data-wow-delay=".6s">
+
+                    <div id="contact-form" class="row justify-content-between">
+
+                        <div class="col-lg-6 col-sm-12">
+                            <h3 class="text-light">Get back to nature</h3>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 text-end">
+                            <a class="btn-secondary fw-normal" href="#">Dinning Location<i class="button-icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="footer">
+                <div class="container">
+                    <div class="row text-center">
+                        <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="divider-2"></div>
+                    <div class="row contact justify-content-center">
+                        <div class="col text-start">828 Timbercrest Road, Healy City, AK 99743</div>
+                        <div class="col text-center">Reservation@lavalleri.com</div>
+                        <div class="col text-end">+0123 456 7890</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row contact justify-content-center">
+                        <div class="col text-start">Facebook</div>
+                        <div class="col text-center">Instagram</div>
+                        <div class="col text-end">Pinterest</div>
+                    </div>
+                    <div class="row justify-content-center privacy">
+                        <div class="col text-start">Contact</div>
+                        <div class="col text-center">Privacy Policy & Cookies</div>
+                        <div class="col text-end"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="js/easings.js"></script>
+<script src="js/hamburger.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="js/ScrollSmoother.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</footer>
+
+</html>

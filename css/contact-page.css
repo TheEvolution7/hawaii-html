@@ -1,0 +1,100 @@
+#contact-page .heading
+{
+    padding: 200px 0px;
+    background: #708551;
+}
+#contact-page section
+{
+    padding: 200px 0px
+}
+#contact-page #infomation .grid
+{
+    border: solid 1px #1F7580;
+    padding: 40px;
+    transition: background-image 0.2s ease-in;
+}
+.grid>*
+{
+    transition: ease-out .7s;
+}
+#contact-page #infomation .grid h3
+{
+    color: #1F7580;
+}
+#contact-page #infomation .grid:first-child
+{
+    border-right: none;
+}
+#contact-page #infomation .grid-row-1:first-child
+{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#contact-page #infomation .grid-row-1:nth-child(2)
+{
+    border-top-right-radius: 30px;
+}
+#contact-page #infomation .grid-row-2:first-child
+{
+    border-top: none;
+    border-bottom-left-radius: 30px;
+}
+#contact-page #infomation .grid-row-2:nth-child(2)
+{
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#contact-page #infomation .grid:hover
+{
+    background: url('../img/assets/contact/bg.png');
+    color: #fff
+}
+#contact-page #infomation .grid:hover h3
+{
+    color: #DBB860;
+}
+#contact-page #infomation .grid-row-3:first-child
+{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#contact-page #infomation .grid-row-3:nth-child(2)
+{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#form
+{
+    padding: 40px;
+    background: #657A44;
+    border-radius: 30px;
+}
+#form input
+{
+    width: calc(100% - 57px) !important;
+    border-radius: 0px 10px 10px 0px;
+    padding: 15px;
+    background: transparent;
+    color: #fff;
+    border-left: none;
+}
+#form input::placeholder
+{
+    color: #fff;
+}
+#form .input-group-text
+{
+    background: transparent;
+    border-radius: 10px 0px 0px 10px;
+    border-right: none;
+}
+#form .input-group
+{
+    display: inline-flex;
+    margin-bottom: 1.5rem;
+}
+#map iframe
+{
+    position: absolute;
+    width: calc(100% + 20px);
+}

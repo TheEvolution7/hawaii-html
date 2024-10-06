@@ -1,0 +1,114 @@
+#about-page .about
+{
+    background-color: #708551;
+    padding-top: 200px;
+    color: #fff;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+#about-page .about span:not(:first-child)
+{
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+#about-page .about h2
+{
+    color: #fff;
+}
+#about-page .about .thumbnail
+{
+    margin-top: 50px;
+}
+#about-blob-1
+{
+    top: -200px;
+    left: -100px;
+    position: absolute;
+}
+#about-blob-2
+{
+    top: -50%;
+    left: 50%;
+    position: absolute;
+}
+section
+{
+    padding: 200px 0px;
+}
+#bg-adventure
+{
+    left: 50%;
+    height: 100%;
+}
+#bg-adventure img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    border-radius: 30px 0px 0px 30px;
+    overflow: hidden;
+}
+.adventure-await
+{
+    padding: 60px 0px
+}
+.has-overlay
+{
+    position: relative;
+}
+.has-overlay .overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(219, 184, 96, 0.6);
+    z-index: 1;
+    color: #fff;
+    opacity: 0;
+    transition: ease-in 0.7s;
+}
+.has-overlay:hover .overlay
+{
+    opacity: 1
+}
+.has-overlay .overlay .btn-primary
+{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    left: 20px;
+    color: #fff;
+}
+.text-light.btn-primary::before
+{
+    color: #fff;
+    background-color: #fff;
+}
+.has-overlay .overlay .btn-primary i
+{
+    background: #fff;
+}
+#about-page #section-5
+{
+    margin-top: -165px;
+    position: relative;
+    z-index: 3;
+}
+@media only screen and (max-width: 560px) {
+    #about-page section
+    {
+        padding: 100px 0px;
+    }
+    .thumbnail img{
+        width: 100%;
+    }
+    .thumbnail:last-child
+    {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hawaii</title>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <link rel="stylesheet" href="css/hamburger-menu.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/648276dae5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="move()" id="homepage" class="position-relative">
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <div class="cursor"></div>
+            <div class="transition-overlay"></div>
+            <div class="z-3 px-3" id="header">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid d-block">
+                        <div class="row w-100">
+                            <div class="col text-left ">
+                                <div class="hamburger d-block d-sm-none" id="hamburger">
+                                    <div class="hamburger__line hamburger__line--01">
+                                        <div class="hamburger__line-in hamburger__line-in--01"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--02">
+                                        <div class="hamburger__line-in hamburger__line-in--02"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--03">
+                                        <div class="hamburger__line-in hamburger__line-in--03"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--cross01">
+                                        <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--cross02">
+                                        <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+                                    </div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="item"><a href="index.html">Home</a></li>
+                                    <li class="item"><a href="tour.html">Tour</a></li>
+                                    <li class="item"><a href="about.html">About</a></li>
+                                    <li class="item"><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="col text-center">
+                                <!-- Logo START -->
+                                <a class="navbar-brand me-0" href="index.html">
+                                    <img class="light-mode-item navbar-brand-item" src="img/logo.png" alt="logo">
+                                    <!--<img class="dark-mode-item navbar-brand-item" src="img/logo.png" alt="logo">-->
+                                </a>
+                            </div>
+                            <!-- Logo END -->
+                            <div class="col">
+                                <ul class="nav float-end btn-group mt-3">
+                                    <li>
+                                        <a class="btn btn-outline me-3 d-none d-lg-block fs-7" href="#"
+                                            role="button">Online
+                                            Check-in</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-outline me-3 d-none d-lg-block " href="#" role="button">En</a>
+                                    </li>
+                                    <li> <a class="btn btn-solid" href="#" role="button">Book Now</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <ul class="hamburger-navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="contact.html">Contact</a> </li>
+                </ul>
+                <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                </svg>
+            </div>
+
+            <section id="about" class="position-relative">
+                <div class="svg-group">
+                    <svg id="vector1" class="blob" width="599" height="765" viewBox="0 0 599 765"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.2033 765C5.14784 703.79 37.6903 639.844 91.2844 609.515C144.901 579.185 216.421 584.267 265.212 621.862C286.31 638.119 305.224 660.653 331.63 664.217C356.956 667.643 381.938 651.157 394.899 629.128C407.861 607.1 410.849 580.588 410.642 554.996C409.884 453.063 364.035 351.246 386.718 251.866C408.551 156.211 499.169 80.7444 597.141 76.6055C607.115 39.7921 575.446 10.7047 538.192 2.58777C500.938 -5.52912 462.627 6.93363 426.638 19.4424C364.264 41.1257 301.845 63.6139 243.816 95.1156C185.786 126.617 131.917 167.708 93.0999 221.169C46.8602 284.862 24.2689 362.697 10.5486 440.187C-7.92891 544.51 1.30985 659.573 12.1803 764.977L12.2033 765Z"
+                            fill="url(#paint0_linear_946_434)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_434" x1="412.734" y1="101.759" x2="104.5" y2="793"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" />
+                                <stop offset="1" stop-color="#135F69" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg id="vector2" class="blob" width="1598" height="1777" viewBox="0 0 1598 1777" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1134.72 1769.48C1178.27 1754.57 1212.24 1716.18 1224.11 1671.98C1230.62 1647.71 1229.2 1621.61 1231.55 1596.73C1234.09 1570.02 1238.33 1543.29 1246.76 1517.72C1264.27 1464.67 1299.19 1425.84 1351.69 1406.6C1410.87 1384.91 1475.23 1382.94 1538.28 1382.55C1601.29 1382.12 1665.31 1382.82 1726.05 1365.9C1835.94 1335.31 1926.27 1245.21 1961.31 1136.66C1996.35 1028.11 1976.68 904.291 1913.33 809.416C1849.99 714.542 1745.19 649.529 1632.72 630.455C1587.09 622.706 1539.99 622.071 1495.93 607.892C1437.28 589.066 1397.15 544.69 1395.95 482.097C1395.34 449.941 1408.98 419.392 1422.31 390.144C1460.76 305.852 1499.21 221.559 1537.63 137.291C1550.52 109.037 1563.57 80.1568 1566.82 49.2785C1574.55 -24.0949 1513.36 -83.2746 1442.68 -89.4142C1375.27 -95.2326 1314.87 -41.5271 1287.52 20.3768C1260.16 82.2808 1257.45 151.672 1248.81 218.778C1240.17 285.884 1223.06 356.188 1174.9 403.677C1123.08 454.768 1043.44 469.378 971.652 457.544C899.868 445.709 834.127 410.823 771.441 373.827C708.756 336.831 647.038 296.841 578.264 273.101C476.062 237.818 361.014 241.165 261.014 282.343C161.014 323.522 77.0091 402.188 29.2861 499.242C4.85002 548.985 -10.216 607.551 8.60007 659.706C27.3918 711.835 90.3169 749.875 140.406 726.159C206.292 694.968 275.751 659.969 348.072 650.897C420.394 641.825 497.319 653.216 557.454 694.385C617.589 735.554 657.494 809.455 646.854 881.587C637.517 945.007 593.319 996.754 552.709 1046.34C512.099 1095.92 471.445 1152.21 471.65 1216.31C471.816 1280.1 514.002 1337.9 566.837 1373.68C682.14 1451.72 853.349 1438.79 919.479 1580.36C941.531 1627.56 948.075 1682.6 980.196 1723.66C1015.5 1768.77 1080.45 1788.03 1134.64 1769.46L1134.72 1769.48Z"
+                            fill="url(#paint0_linear_946_433)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_433" x1="1104" y1="55.5" x2="212.697" y2="1625.33"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" stop-opacity="0" />
+                                <stop offset="1" stop-color="#135F69" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg id="vector3" class="blob" width="1473" height="1596" viewBox="0 0 1473 1596" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1055.67 283.318C1006.43 281.797 960.227 259.349 918.517 233.117C850.592 190.376 790.362 136.605 724.447 90.8519C658.532 45.0986 584.383 6.64548 504.359 0.89078C424.334 -4.86392 337.787 28.0601 297.321 97.3957C246.384 184.727 281.62 297.724 337.001 382.269C392.383 466.814 467.279 540.2 503.406 634.573C558.383 778.076 503.593 955.754 377.329 1043.32C272.223 1116.25 126.471 1132.04 47.7481 1232.9C1.03868 1292.7 -12.1881 1377.04 13.9061 1448.3C40.0428 1519.57 104.617 1575.33 178.922 1590.75C301.801 1616.26 419.967 1537.7 519.644 1461.37C619.307 1385.08 732.641 1302.48 857.086 1318.73C939.345 1329.49 1012.05 1383.03 1094.79 1389.27C1176.71 1395.43 1256.71 1352.77 1312.39 1292.31C1368.07 1231.84 1402.69 1155.19 1431.29 1078.11C1470.55 972.268 1497.99 846.493 1435.9 752.255C1393.15 687.446 1313.16 647.399 1290.32 573.218C1276.08 526.967 1287.6 477.248 1298.1 430.021C1308.59 382.794 1317.82 332.018 1299.54 287.241C1244.7 152.726 1137.64 285.848 1055.65 283.261L1055.67 283.318Z"
+                            fill="url(#paint0_linear_946_435)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_435" x1="1588.96" y1="499.21" x2="-317.143"
+                                y2="1166.4" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" />
+                                <stop offset="1" stop-color="#135F69" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg id="vector4" class="blob" width="1514" height="1862" viewBox="0 0 1514 1862" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1319.14 1499.4C1302.15 1547.46 1283.66 1597.02 1281.88 1648.54C1280.32 1692.75 1293.88 1722.23 1270.66 1762.67C1226.13 1840.23 1127.61 1873.05 1042.05 1858.73C942.549 1842.08 858.549 1777.86 779.059 1715.73C678.263 1636.93 577.467 1558.13 476.689 1479.31C332.939 1366.92 185.595 1250.47 94.7177 1092.29C22.2997 966.225 -10.0237 817.567 3.53893 672.865C22.0221 476.171 122.004 295.486 244.512 140.586C287.037 86.8359 335.404 33.3445 399.931 10.2541C517.343 -31.7589 573.776 77.1615 672.977 110.72C783.69 148.181 903.828 139.355 1020.61 134.804C1137.39 130.254 1259.85 131.722 1363.1 186.521C1466.35 241.32 1541.76 365.885 1503.21 476.163C1476.03 553.863 1401.51 604.95 1326.09 637.884C1250.66 670.817 1169.18 691.61 1100.07 736.341C1030.97 781.071 974.448 859.134 986.917 940.501C1000.07 1026.35 1081.42 1082.74 1156.99 1125.6C1232.57 1168.46 1316.52 1216.24 1342.7 1299.03C1363.34 1364.36 1341.95 1434.8 1319.15 1499.37L1319.14 1499.4Z"
+                            fill="url(#paint0_linear_946_432)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_432" x1="632.5" y1="-224" x2="872" y2="1327"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#135F69" />
+                                <stop offset="1" stop-color="#135F69" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                </div>
+                <div class="container position-relative overflow-hidden z-2">
+
+                    <div class="row">
+                        <div class="divider"></div>
+                        <div class="w-100 my-80 position-relative p-0">
+                            <a href="#"
+                                class="thumbnail position-absolute end-0 bottom-0 col-md-4 wow fadeInUp d-none d-md-block"
+                                data-wow-delay=".6s">
+                                <img src="img/assets/image1.png" alt="">
+                            </a>
+                            <span class="subtitle wow fadeInUp" data-wow-delay=".6s">Welcome to Your Journey to
+                                Paradise</span>
+                            <h2 class="ms-auto me-auto text-light  delay-text-01 wow fadeInUp" data-wow-delay=".5s">
+                                <span>PAGE NOT FOUND</span>
+                                <br>
+                                <span class="line">404</span>
+
+                            </h2>
+                            <div class="divider"></div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+<footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/easings.js"></script>
+    <script src="js/hamburger.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</footer>
+
+</html>

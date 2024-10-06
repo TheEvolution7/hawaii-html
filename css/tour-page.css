@@ -1,0 +1,234 @@
+#tour-page #about .thumbnail
+{
+    max-width: 100%;
+    height: 500px;
+}
+#tour-page #about form
+{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+.line
+{
+    background: #fff;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.product-list
+{
+    display: grid;
+  grid-template-columns: auto auto;
+  gap: 0px;
+}
+.product-list .item
+{
+    border: 1px solid #1F7580;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.product-list .item:nth-child(odd)
+{
+    border-bottom: none;
+    border-right:none;
+}
+.product-list .item:nth-child(even)
+{
+    border-bottom: none;
+}
+.product-list .item:first-child
+{
+    border-top-left-radius: 30px;
+}
+.product-list .item:nth-child(2)
+{
+    border-top-right-radius: 30px;
+}
+.product-list .item:nth-last-child(2)
+{
+    border-bottom: 1px solid #1F7580;
+    border-bottom-left-radius: 30px;
+}
+.product-list .item:nth-last-child(1)
+{
+    border-bottom: 1px solid #1F7580;
+    border-bottom-right-radius: 30px;
+}
+.product-list .item .info .description
+{
+    max-width: calc( 100% - 150px);
+    display: block;
+    overflow: hidden;
+}
+.product-list .item .number
+{
+    font-size: 0.8rem;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 15px;
+    border-radius: 99px;
+    background: #DBB860;
+    color: #fff;
+}
+.product-list .thumbnail-product
+{
+    position: absolute;
+    height:100%;
+    top: 0;
+    right: 100%;
+    
+}
+.product-list .thumbnail-product img
+{
+    height: 100%;
+    width: 150px;
+    object-fit: cover;
+}
+.product-list .overlay
+{
+    background-image: url(../img/assets/tour/bg-product.png);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.product-list .item>*
+{
+    transition:  ease-out 1s;
+}
+.product-list .item:hover .overlay
+{
+    opacity: 1;
+}
+.product-list .item:hover
+{
+    color: #fff;
+}
+.product-list .item:hover .thumbnail-product, .product-list .item:hover .info, .product-list .item:hover h4
+{
+    translate: 150px 0px;
+}
+
+.product-list .item:hover h4
+{
+    color: #fff;
+}
+.product-list .item:hover .number
+{
+    content: '->';
+}
+#tour-page .blog .post 
+{
+    margin-bottom: 5rem;
+}
+section#icon
+{
+    padding: 100px 0px;
+}
+#icon .card-icon
+{
+    background: #E9E9D1;
+    padding: 30px;
+    border-radius: 20px;
+}
+#icon .card-icon .icon>img
+{
+    max-width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+#icon .card-icon h4{
+    color: #5A6647;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.3rem;
+    height: 2.6rem;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+}
+.py-100
+{
+    padding: 100px 0px;
+}
+#tour-page #section-4
+{
+    background-color: #fff;
+    color: #607173;
+}
+#tour-page #section-4 .tag
+{
+    background-color: rgba(219, 184, 96, 0.5);
+    color: #1F7580;
+}
+#tour-page #section-4 h3
+{
+    color: #1F7580;
+}
+@media only screen and (max-width: 560px) {
+    #about form a
+    {
+        bottom: 0px;
+    }
+    #tour-page #about form .input-group
+    {
+        padding-bottom: 60px;
+    }
+    #about form a
+    {
+        bottom: -25px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    section 
+    {
+        padding: 50px 0px !important;
+    }
+    .product-list
+    {
+        grid-template-columns:none
+    }
+    .product-list .item:first-child
+    {
+        border-top-right-radius: 30px;
+    }
+    .product-list .item:nth-child(odd)
+    {
+        border: 1px solid #1F7580;
+        border-bottom: none;
+    }
+    .product-list .item:nth-child(even)
+    {
+        border-bottom: none;
+    }
+    .product-list .item:nth-child(2)
+    {
+        border-radius: 0;
+    }
+    .product-list .item.item.item:nth-last-child(1)
+    {
+        border-bottom: 1px solid #1F7580;
+        border-bottom-left-radius: 30px;
+    }
+    .product-list .item.item.item:nth-last-child(2)
+    {
+        border-radius: 0;
+    }
+    .reverse .separator-child
+    {
+        top: -38px;
+    }
+    #icon .card-icon
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

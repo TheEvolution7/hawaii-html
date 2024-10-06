@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hawaii</title>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <link rel="stylesheet" href="css/hamburger-menu.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about-page.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/648276dae5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="move()" id="about-page" class="position-relative">
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <div class="cursor"></div>
+            <div class="transition-overlay"></div>
+            <div class="z-3 px-3" id="header">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid d-block">
+                        <div class="row w-100">
+                            <div class="col text-left ">
+                                <div class="hamburger d-block d-sm-none" id="hamburger">
+                                    <div class="hamburger__line hamburger__line--01">
+                                        <div class="hamburger__line-in hamburger__line-in--01"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--02">
+                                        <div class="hamburger__line-in hamburger__line-in--02"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--03">
+                                        <div class="hamburger__line-in hamburger__line-in--03"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--cross01">
+                                        <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+                                    </div>
+                                    <div class="hamburger__line hamburger__line--cross02">
+                                        <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+                                    </div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="item"><a href="index.html">Home</a></li>
+                                    <li class="item"><a href="tour.html">Tour</a></li>
+                                    <li class="item"><a href="about.html">About</a></li>
+                                    <li class="item"><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="col text-center">
+                                <!-- Logo START -->
+                                <a class="navbar-brand me-0" href="index.html">
+                                    <img class="light-mode-item navbar-brand-item" src="img/logo.png" alt="logo">
+                                    <!--<img class="dark-mode-item navbar-brand-item" src="img/logo.png" alt="logo">-->
+                                </a>
+                            </div>
+                            <!-- Logo END -->
+                            <div class="col">
+                                <ul class="nav float-end btn-group mt-3">
+                                    <li>
+                                        <a class="btn btn-outline me-3 d-none d-lg-block fs-7" href="#"
+                                            role="button">Online
+                                            Check-in</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-outline me-3 d-none d-lg-block " href="#" role="button">En</a>
+                                    </li>
+                                    <li> <a class="btn btn-solid" href="#" role="button">Book Now</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <ul class="hamburger-navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="contact.html">Contact</a> </li>
+                </ul>
+                <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                    <path class="shape-overlays__path" d="M 0 100 C 50 100 50 100 100 100 V 100 H 0"></path>
+                </svg>
+            </div>
+            <section class="position-relative about">
+                <div class="svg-group top-0">
+                    <svg id="about-blob-1" class="blob" width="892.85" height="721.05" viewBox="0 0 1668 1572"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M958.705 1565.74C995.338 1553.29 1023.84 1521.04 1033.71 1483.85C1039.13 1463.42 1037.87 1441.43 1039.78 1420.49C1041.86 1397.99 1045.35 1375.49 1052.38 1353.98C1066.99 1309.34 1096.29 1276.72 1140.44 1260.65C1190.2 1242.54 1244.39 1241.05 1297.46 1240.87C1350.52 1240.68 1404.41 1241.43 1455.51 1227.34C1547.95 1201.86 1623.76 1126.2 1652.98 1034.86C1682.21 943.527 1665.32 839.181 1611.74 759.105C1558.16 679.029 1469.76 623.998 1375.03 607.64C1336.59 600.995 1296.94 600.338 1259.8 588.281C1210.37 572.272 1176.48 534.79 1175.31 482.066C1174.71 454.98 1186.11 429.284 1197.26 404.683C1229.41 333.784 1261.56 262.885 1293.69 192.006C1304.48 168.241 1315.38 143.95 1318.04 117.95C1324.36 56.1681 1272.69 6.16297 1213.17 0.808433C1156.4 -4.26699 1105.68 40.8121 1082.82 92.8823C1059.95 144.953 1057.84 203.393 1050.74 259.893C1043.64 316.394 1029.42 375.566 988.998 415.441C945.5 458.339 878.486 470.439 818.02 460.285C757.553 450.131 702.114 420.576 649.242 389.252C596.371 357.928 544.306 324.085 486.343 303.912C400.207 273.928 303.355 276.449 219.27 310.874C135.186 345.299 64.6655 411.341 24.7385 492.965C4.29442 534.8 -8.23804 584.091 7.73859 628.069C23.6947 672.026 76.7706 704.229 118.88 684.383C174.269 658.282 232.657 628.983 293.521 621.529C354.386 614.075 419.18 623.869 469.915 658.701C520.65 693.533 554.438 755.883 545.667 816.611C537.971 870.005 500.894 913.477 466.832 955.134C432.771 996.79 398.69 1044.1 399.029 1098.09C399.333 1151.82 435 1200.62 479.575 1230.89C576.852 1296.92 720.962 1286.48 777.004 1405.89C795.692 1445.7 801.344 1492.08 828.493 1526.74C858.333 1564.83 913.065 1581.22 958.642 1565.72L958.705 1565.74Z"
+                            fill="url(#paint0_linear_946_647)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_647" x1="928.402" y1="121.991" x2="177.408"
+                                y2="1439.27" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#596E37" stop-opacity="0" />
+                                <stop offset="1" stop-color="#596E37" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg class="blob" id="about-blob-2" width="1030" height="1132" viewBox="0 0 1030 1132" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M740.725 198.555C706.372 197.677 674.225 181.962 645.228 163.549C598.007 133.547 556.199 95.7009 510.392 63.5572C464.586 31.4135 413.005 4.47438 357.192 0.721812C301.378 -3.03076 240.857 20.6421 212.341 69.9217C176.447 131.991 200.575 211.893 238.875 271.558C277.175 331.224 329.136 382.906 353.962 449.611C391.74 551.043 352.792 677.127 264.338 739.665C190.705 791.756 88.9437 803.529 33.6072 875.292C0.773992 917.843 -8.79634 977.645 9.12232 1028.02C27.0706 1078.4 71.901 1117.63 123.685 1128.25C209.32 1145.83 292.087 1089.7 361.945 1035.23C431.793 980.786 511.206 921.814 597.97 932.818C655.323 940.112 705.834 977.739 763.543 981.828C820.678 985.859 876.666 955.318 915.763 912.261C954.86 869.204 979.321 814.762 999.592 760.048C1027.41 684.911 1047.07 595.704 1004.12 529.2C974.564 483.463 918.909 455.419 903.275 402.963C893.526 370.258 901.768 334.992 909.281 301.495C916.795 267.998 923.442 231.992 910.865 200.347C873.145 105.282 797.905 200.015 740.706 198.515L740.725 198.555Z"
+                            fill="url(#paint0_linear_946_645)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_946_645" x1="1111.95" y1="349.329" x2="-229.123"
+                                y2="804.941" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#596E37" />
+                                <stop offset="1" stop-color="#596E37" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+
+
+                </div>
+                <div class="container position-relative overflow-hidden z-2">
+                    <div class="row justify-content-between">
+                        <div class="col-md-5">
+                            <span class="wow fadeInUp" data-wow-delay=".7s">Float into a summer of good times, great friends, and refreshing memories. 
+                            We always start with the unexpected and never settle for predictable.</span>
+                            <div class="divider"></div>
+                            <span class="fs-6 wow fadeInUp" data-wow-delay=".7s">Hawaii consists of several distinct islands, each offering its own unique charm. 
+                            Oahu, home to Honolulu, blends urban excitement with beautiful beaches like Waikiki. </span>
+                            <span class="fs-6 wow fadeInUp" data-wow-delay=".7s">Maui entices with its lush landscapes, from the scenic Road to Hana to the towering Haleakalā volcano. 
+                            Big Island, or Hawaii Island, boasts diverse climates and landscapes, including active volcanoes like Kilauea and stunning black sand beaches. </span>
+                            <span class="fs-6 wow fadeInUp" data-wow-delay=".7s">Kauai, known as the "Garden Isle," features lush rainforests, dramatic cliffs of the Napali Coast, 
+                            and the majestic Waimea Canyon. Together, these islands form a paradise rich in natural beauty and cultural diversity.</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="subtitle wow fadeInUp" data-wow-delay=".7s">Embark on Your Adventure to Paradise!</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".7s">CHERISH<br> YOUR VACATION</h2>
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".8s">
+                                <img src="img/assets/about.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid position-relative">
+                <div class="row">
+                    <div class="separator">
+                        <svg class="separator-child separator-child-secondary" style="fill: #F1F2F4"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-196.61 0V21.1232C-196.61 90.5281 -148.913 67.6768 -101.5 115.09C-14.9999 201.59 116.787 115.09 227.697 115.09C338.606 115.09 400.788 152.442 511.698 152.442C622.607 152.442 676.557 122.132 795.699 115.09C908.436 108.426 966.566 155.325 1079.7 155.325C1192.83 155.325 1252.79 115.09 1363.7 115.09C1474.61 115.09 1534.57 155.325 1647.7 155.325C1760.84 155.325 1820.79 115.09 1931.7 115.09C2042.61 115.09 2102.57 155.325 2215.7 155.325C2328.84 155.325 2386.57 115.09 2499.7 115.09C2612.84 115.09 2672.8 155.325 2783.71 155.325C2894.61 155.325 2954.57 115.09 3067.71 115.09C3180.84 115.09 3238.57 155.325 3351.71 155.325C3464.84 155.325 3524.8 115.09 3635.71 115.09C3746.62 115.09 3845.02 185.125 3919.71 125.325C3976.61 79.7659 3919.71 0 3919.71 0H-196.61Z">
+                            </path>
+                        </svg>
+                        <svg class="separator-child separator-child-primary" style="fill:#708551" viewBox="0 0 3876 160"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-174.61 -157V-116.765C-174.61 15.4344 -112.186 139 -3.49988 139C111 139 138.787 62.2189 249.697 62.2189C360.606 62.2189 356 156.175 533.698 156.175C683 156.175 698.557 75.6322 817.699 62.2189C930.436 49.5265 988.565 138.856 1101.7 138.856C1214.83 138.856 1274.79 62.2189 1385.7 62.2189C1496.61 62.2189 1556.57 138.856 1669.7 138.856C1782.84 138.856 1842.79 62.2189 1953.7 62.2189C2064.61 62.2189 2124.57 138.856 2237.7 138.856C2350.84 138.856 2408.57 62.2188 2521.7 62.2189C2634.84 62.2189 2694.8 138.856 2805.71 138.856C2916.61 138.856 2976.57 62.2189 3089.71 62.2189C3202.84 62.2188 3260.57 138.856 3373.71 138.856C3486.84 138.856 3546.8 62.2189 3657.71 62.2189C3768.62 62.2189 3867.02 222.761 3941.71 108.856C3998.61 22.0779 3941.71 -157 3941.71 -157H-174.61Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <section>
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-5 text-end">
+                            <a href="" class="thumbnail mb-4 wow fadeInUp" data-wow-delay=".7s"><img class="img-fluid  b-round"
+                                    src="img/assets/about/image1.jpg" alt=""></a>
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s"><img class=" b-round"
+                                    src="img/assets/about/image2.jpg" alt=""></a>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="wow fadeInUp" data-wow-delay=".7s">Oahu, the heart of Hawaii, is known for its vibrant capital, Honolulu. 
+                            Visitors can enjoy iconic Waikiki Beach, historical sites like Pearl Harbor, and the bustling nightlife and shopping.</span>
+                            <div class="divider-text"></div>
+                            <span class="fs-6 d-block mb-4 wow fadeInUp" data-wow-delay=".7s">Maui, the "Valley Isle," offers breathtaking landscapes, including the scenic Hana Highway and the majestic Haleakalā National Park. 
+                            It's perfect for whale watching, luxury resorts, and world-class beaches.</span>
+                            <span class="fs-6 d-block mb-4 wow fadeInUp" data-wow-delay=".7s">Big Island is renowned for its diverse climates and landscapes, from active volcanoes in Hawaii Volcanoes National Park to lush rainforests and black sand beaches.</span>
+                            <div class="divider-text"></div>
+                            <a href="#" class="btn-primary wow fadeInUp" data-wow-delay=".7s">Explore Locations<i
+                                    class="button-icon">
+                                    <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="container position-relative">
+                    <div class="row">
+                        <div class="col-md-8 z-1 adventure-await wow fadeInUp" data-wow-delay=".7s">
+                            <div
+                                style="background-image: url(img/assets/about/bg1.png); padding: 50px; background-position: center; border-radius: 30px">
+                                <h2 style="font-size: 4rem; color: #fff;"><span>ADVENTURE </span><br><span
+                                        style="color: #DBB860">AWAITS</span></h2>
+                            </div>
+                        </div>
+                        <div id="bg-adventure" class="position-absolute wow fadeInUp" data-wow-delay=".9s">
+                            <img src="img/assets/about/images3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="container">
+                    <div class="row">
+                        <h2 class="mw-700 gradient-text-2 m-auto text-center wow fadeInUp" data-wow-delay=".7s">Kauai, the "Garden Isle"</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s">
+                                <img class="img-fluid w-100" src="img/assets/image1.png" alt="">
+                            </a>
+                            <div class="divider-text"></div>
+                            <span class="desciprtion fs-6 wow fadeInUp" data-wow-delay=".7s">Kauai, the "Garden Isle," features lush greenery, dramatic cliffs of the Napali Coast, 
+                            and the stunning Waimea Canyon. It's ideal for hiking, kayaking, and exploring nature.</span>
+                            <div class="divider-text"></div>
+                            <a href="#" class="btn-primary wow fadeInUp" data-wow-delay=".8s">Explore Locations<i
+                                    class="button-icon">
+                                    <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </i></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="" class="thumbnail col-md-6 mb-4 wow fadeInUp" data-wow-delay=".7s">
+                                <img class="b-round" src="img/assets/about/image4.jpg" alt="">
+                            </a>
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s">
+                                <img class="b-round" src="img/assets/about/image5.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid position-relative">
+                <div class="row">
+                    <div class="separator">
+                        <svg class="separator-child separator-child-secondary" style="fill: #D1E2E4; rotate: 180deg;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-196.61 0V21.1232C-196.61 90.5281 -148.913 67.6768 -101.5 115.09C-14.9999 201.59 116.787 115.09 227.697 115.09C338.606 115.09 400.788 152.442 511.698 152.442C622.607 152.442 676.557 122.132 795.699 115.09C908.436 108.426 966.566 155.325 1079.7 155.325C1192.83 155.325 1252.79 115.09 1363.7 115.09C1474.61 115.09 1534.57 155.325 1647.7 155.325C1760.84 155.325 1820.79 115.09 1931.7 115.09C2042.61 115.09 2102.57 155.325 2215.7 155.325C2328.84 155.325 2386.57 115.09 2499.7 115.09C2612.84 115.09 2672.8 155.325 2783.71 155.325C2894.61 155.325 2954.57 115.09 3067.71 115.09C3180.84 115.09 3238.57 155.325 3351.71 155.325C3464.84 155.325 3524.8 115.09 3635.71 115.09C3746.62 115.09 3845.02 185.125 3919.71 125.325C3976.61 79.7659 3919.71 0 3919.71 0H-196.61Z">
+                            </path>
+                        </svg>
+                        <svg class="separator-child separator-child-primary" style="fill:#1F7580;rotate: 180deg;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-174.61 -157V-116.765C-174.61 15.4344 -112.186 139 -3.49988 139C111 139 138.787 62.2189 249.697 62.2189C360.606 62.2189 356 156.175 533.698 156.175C683 156.175 698.557 75.6322 817.699 62.2189C930.436 49.5265 988.565 138.856 1101.7 138.856C1214.83 138.856 1274.79 62.2189 1385.7 62.2189C1496.61 62.2189 1556.57 138.856 1669.7 138.856C1782.84 138.856 1842.79 62.2189 1953.7 62.2189C2064.61 62.2189 2124.57 138.856 2237.7 138.856C2350.84 138.856 2408.57 62.2188 2521.7 62.2189C2634.84 62.2189 2694.8 138.856 2805.71 138.856C2916.61 138.856 2976.57 62.2189 3089.71 62.2189C3202.84 62.2188 3260.57 138.856 3373.71 138.856C3486.84 138.856 3546.8 62.2189 3657.71 62.2189C3768.62 62.2189 3867.02 222.761 3941.71 108.856C3998.61 22.0779 3941.71 -157 3941.71 -157H-174.61Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <section class="bg-main">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="mw-700 text-center m-auto wow fadeInUp" data-wow-delay=".7s"><span
+                                class="text-light">Molokai, the "Friendly Isle" </span><span
+                                class="text-color-secondary">remains largely undeveloped, offering a glimpse into traditional Hawaiian culture.</span>
+                        </h2>
+                        <div class="divider-text"></div>
+                        <span class="description fs-6 mw-500 text-light text-center m-auto wow fadeInUp"
+                            data-wow-delay=".7s">Visitors can enjoy secluded beaches, and the historic Kalaupapa National Historical Park.</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row justify-content-between">
+                        <div class="col-md-5">
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s">
+                                <img class="img-fluid b-round" src="img/image1.jpg" alt="">
+                            </a>
+                            <h3 class="title text-light py-4 wow fadeInUp" data-wow-delay=".7s">
+                                Lanai, the "Pineapple Isle"
+                            </h3>
+                            <span class="description text-light fs-6 wow fadeInUp" data-wow-delay=".7s">Lanai, the "Pineapple Isle," is known for its luxury resorts, 
+                            unique landscapes like the Garden of the Gods, and activities such as off-road adventures and pristine snorkeling spots.</span>
+                        </div>
+                        <div class="col-md-5">
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s">
+                                <img class="img-fluid b-round" src="img/image2.jpg" alt="">
+                            </a>
+                            <h3 class="title text-light py-4 wow fadeInUp" data-wow-delay=".7s">
+                                Niihau, the "Forbidden Isle"
+                            </h3>
+                            <span class="description text-light fs-6 wow fadeInUp" data-wow-delay=".7s">Niihau, the "Forbidden Isle," is privately owned and largely inaccessible to the public. 
+                            It maintains a traditional Hawaiian lifestyle, and visits are typically limited to special tours.</span>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s">
+                                <img class="img-fluid b-round wow fadeInUp" data-wow-delay=".7s" src="img/image2.jpg"
+                                    alt="">
+                            </a>
+                            <h3 class="title text-light py-4 wow fadeInUp" data-wow-delay=".7s">
+                                Kahoolawe
+                            </h3>
+                            <span class="description text-light fs-6 wow fadeInUp" data-wow-delay=".7s">Kahoolawe is an uninhabited island used primarily for conservation and cultural restoration efforts. 
+                            Access is restricted, but volunteer opportunities are available for those interested in its ecological recovery.</span>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row text-center">
+                        <a href="#" class="btn-primary m-auto text-light wow fadeInUp" data-wow-delay=".8s">Explore
+                            Locations<i class="button-icon">
+                                <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                            </i></a>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid position-relative">
+                <div class="row">
+                    <div class="separator">
+                        <svg class="separator-child separator-child-secondary" style="fill: #D1E2E4; margin-top: 60px;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-196.61 0V21.1232C-196.61 90.5281 -148.913 67.6768 -101.5 115.09C-14.9999 201.59 116.787 115.09 227.697 115.09C338.606 115.09 400.788 152.442 511.698 152.442C622.607 152.442 676.557 122.132 795.699 115.09C908.436 108.426 966.566 155.325 1079.7 155.325C1192.83 155.325 1252.79 115.09 1363.7 115.09C1474.61 115.09 1534.57 155.325 1647.7 155.325C1760.84 155.325 1820.79 115.09 1931.7 115.09C2042.61 115.09 2102.57 155.325 2215.7 155.325C2328.84 155.325 2386.57 115.09 2499.7 115.09C2612.84 115.09 2672.8 155.325 2783.71 155.325C2894.61 155.325 2954.57 115.09 3067.71 115.09C3180.84 115.09 3238.57 155.325 3351.71 155.325C3464.84 155.325 3524.8 115.09 3635.71 115.09C3746.62 115.09 3845.02 185.125 3919.71 125.325C3976.61 79.7659 3919.71 0 3919.71 0H-196.61Z">
+                            </path>
+                        </svg>
+                        <svg class="separator-child separator-child-primary" style="fill:#1F7580;"
+                            viewBox="0 0 3876 160" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M-174.61 -157V-116.765C-174.61 15.4344 -112.186 139 -3.49988 139C111 139 138.787 62.2189 249.697 62.2189C360.606 62.2189 356 156.175 533.698 156.175C683 156.175 698.557 75.6322 817.699 62.2189C930.436 49.5265 988.565 138.856 1101.7 138.856C1214.83 138.856 1274.79 62.2189 1385.7 62.2189C1496.61 62.2189 1556.57 138.856 1669.7 138.856C1782.84 138.856 1842.79 62.2189 1953.7 62.2189C2064.61 62.2189 2124.57 138.856 2237.7 138.856C2350.84 138.856 2408.57 62.2188 2521.7 62.2189C2634.84 62.2189 2694.8 138.856 2805.71 138.856C2916.61 138.856 2976.57 62.2189 3089.71 62.2189C3202.84 62.2188 3260.57 138.856 3373.71 138.856C3486.84 138.856 3546.8 62.2189 3657.71 62.2189C3768.62 62.2189 3867.02 222.761 3941.71 108.856C3998.61 22.0779 3941.71 -157 3941.71 -157H-174.61Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <h2 class="gradient-text mw-500 m-auto text-center wow fadeInUp" data-wow-delay=".7s">Have a great holiday</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail has-overlay wow fadeInUp" data-wow-delay=".7s">
+                                <div class="overlay">
+                                    <h3 class="text-light">Oahu</h3><span class="fs-6">Oahu, the heart of Hawaii, is known for its vibrant capital, Honolulu. 
+                                           Visitors can enjoy iconic Waikiki Beach, historical sites like Pearl Harbor, and the bustling nightlife and shopping.</span>
+                                           <a href="#" class="btn-primary align-bottom">Explore Locations<i
+                                            class="button-icon">
+                                            <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 9L16 9" stroke="black" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M9 2L16 9L9 16" stroke="black" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </i></a>
+                                </div><img class="img-fluid" src="img/assets/about/image6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div  class="thumbnail has-overlay wow fadeInUp" data-wow-delay=".8s">
+                                <div class="overlay">
+                                    <h3 class="text-light">Oahu</h3><span class="fs-6">Oahu, the heart of Hawaii, is known for its vibrant capital, Honolulu.  
+                                           Visitors can enjoy iconic Waikiki Beach, historical sites like Pearl Harbor, and the bustling nightlife and shopping.</span><a href="#" class="btn-primary align-bottom">Explore Locations<i
+                                            class="button-icon">
+                                            <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 9L16 9" stroke="black" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M9 2L16 9L9 16" stroke="black" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </i></a>
+                                </div><img class="img-fluid" src="img/assets/about/image7.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div  class="thumbnail has-overlay wow fadeInUp" data-wow-delay=".9s">
+                                <div class="overlay">
+                                    <h3 class="text-light">Oahu</h3><span class="fs-6">Oahu, the heart of Hawaii, is known for its vibrant capital, Honolulu. 
+                                           Visitors can enjoy iconic Waikiki Beach, historical sites like Pearl Harbor, and the bustling nightlife and shopping.</span>
+                                           <a href="#" class="btn-primary align-bottom">Explore Locations<i
+                                            class="button-icon">
+                                            <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 9L16 9" stroke="black" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M9 2L16 9L9 16" stroke="black" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </i></a>
+                                </div><img class="img-fluid wow fadeInUp" data-wow-delay=".7s" src="img/assets/about/image8.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-2"></div>
+                <div class="position-relative">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 offset-md-3">
+                                <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s"><img src="img/assets/about/image9.jpg" alt=""></a>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="gradient-text wow fadeInUp" data-wow-delay=".7s">Find Us on <br>Instagram and See <br>Our Latest Posts</h3>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="offset-md-6 mw-500 position-relative">
+                                <span class="fs-6 wow fadeInUp" data-wow-delay=".8s">Kauai, the "Garden Isle" features lush greenery, dramatic cliffs of the Napali Coast, 
+                                and the stunning Waimea Canyon. It's ideal for hiking, kayaking, and exploring nature.</span>
+                                <div class="divider-2"></div>
+                                <img class="position-absolute top-0 wow fadeInUp" data-wow-delay=".9s"
+                                    style="max-height: 500px; width: 50vw; border-radius: 0px 30px 30px 0px; right: calc(100% + 1.5rem/2);"
+                                    src="img/assets/about/image10.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="position-relative py-200"
+                style="background-image: url(img/assets/about/bg2.png); margin-top: -100px; z-index:1">
+
+                <div class="divider-text"></div>
+                <div class="container">
+                    <h3 class="text-light wow fadeInUp" data-wow-delay=".7s">Kahoolawe </h3>
+                    <div class="divider-text"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="desciprtion fs-6 text-light wow fadeInUp" data-wow-delay=".7s">Kahoolawe is an uninhabited island used primarily for conservation and cultural restoration efforts. 
+                            Access is restricted, but volunteer opportunities are available for those interested in its ecological recovery.</span>
+                            <div class="divider-text"></div>
+                            <div class="w-100">
+                                <a href="#" class="btn-primary text-light wow fadeInUp" data-wow-delay=".8s">Explore Locations<i class="button-icon">
+                                        <svg class="icon-right-arrow" width="18" height="18" viewBox="0 0 18 18"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                            <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3">
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s"><img class="img-fluid" src="img/assets/about/image11.jpg" alt=""></a>
+                            <a href="" class="thumbnail mt-4 wow fadeInUp" data-wow-delay=".7s"><img src="img/assets/about/image12.jpg" alt=""></a>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="divider"></div>
+                            <a href="" class="thumbnail wow fadeInUp" data-wow-delay=".7s"><img class="img-fluid" src="img/assets/about/image13.jpg" alt=""></a>
+                            <a href="" class="thumbnail mt-4 wow fadeInUp" data-wow-delay=".7s"><img class="img-fluid" src="img/assets/about/image14.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="divider"></div>
+            <section id="section-5">
+                <div class="container wow fadeInUp" data-wow-delay=".6s">
+
+                    <div id="contact-form" class="row justify-content-between">
+
+                        <div class="col-lg-6 col-sm-12">
+                            <h3 class="text-light">Get back to nature</h3>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 text-end">
+                            <a class="btn-secondary fw-normal" href="#">Dinning Location<i class="button-icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 9L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M9 2L16 9L9 16" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="footer">
+                <div class="container wow fadeInUp" data-wow-delay=".7s">
+                    <div class="row text-center">
+                        <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="divider-2"></div>
+                    <div class="row contact justify-content-center">
+                        <div class="col text-start">828 Timbercrest Road, Healy City, AK 99743</div>
+                        <div class="col text-center">Reservation@lavalleri.com</div>
+                        <div class="col text-end">+0123 456 7890</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row contact justify-content-center">
+                        <div class="col text-start">Facebook</div>
+                        <div class="col text-center">Instagram</div>
+                        <div class="col text-end">Pinterest</div>
+                    </div>
+                    <div class="row justify-content-center privacy">
+                        <div class="col text-start">Contact</div>
+                        <div class="col text-center">Privacy Policy & Cookies</div>
+                        <div class="col text-end"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+<footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="js/easings.js"></script>
+<script src="js/hamburger.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="js/ScrollSmoother.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</footer>
+
+</html>
